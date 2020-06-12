@@ -66,7 +66,7 @@
 
 .swiper-slide-active,
 .swiper-slide-next {
-  @include fadeIn-animation(1s, translateX(30px), translateX(0));
+  @include fadeIn-animation(1s, translateX(2.5rem), translateX(0));
 }
 
 .slider__item-title {
