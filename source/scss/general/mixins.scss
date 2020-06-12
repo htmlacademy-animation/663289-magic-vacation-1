@@ -58,3 +58,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin fadeIn-animation($duration, $translateFrom, $translateTo) {
+  $name: fadeIn-#{unique-id()};
+
+  @keyframes #{$name} {
+    from {
+      opacity: 0;
+      transform: $translateFrom;
+    }
+    to {
+      opacity: 1;
+      transform: $translateTo;
+    }
+  }
+
+  animation-name: $name;
+  animation-duration: $duration;
+}
