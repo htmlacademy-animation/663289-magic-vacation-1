@@ -39,7 +39,6 @@
   &:nth-child(even) {
     .slider__item-text {
       align-self: flex-end;
-
       @media (max-width: $mobile) and (orientation: landscape) {
         align-self: flex-start;
       }
@@ -63,6 +62,11 @@
       }
     }
   }
+}
+
+.swiper-slide-active,
+.swiper-slide-next {
+  @include fadeIn-animation(1s, translateX(2.5rem), translateX(0));
 }
 
 .slider__item-title {
