@@ -42,6 +42,10 @@ body {
   background-color: $c-dark;
   overflow: hidden;
 
+  &.load {
+    animation-fill-mode: forwards;
+  }
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

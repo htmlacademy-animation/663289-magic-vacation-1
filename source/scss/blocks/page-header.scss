@@ -5,6 +5,8 @@
   right: 0;
   padding: 2.7rem 0;
   z-index: 10;
+  opacity: 0;
+  transition: opacity 1s cubic-bezier(0, 0.66, 0.29, 1);
 
   @media (min-width: $stop-scaling) {
     padding: 27px 0;
@@ -35,6 +37,8 @@
   padding: 1rem 0;
   width: 10rem;
   color: $c-light;
+  transform: translateX(-3rem);
+  transition: transform 1s cubic-bezier(0, 0.66, 0.29, 1);
 
   @media (min-width: $stop-scaling) {
     top: -5px;
