@@ -1608,13 +1608,13 @@ img {
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.27;
-  animation-name: fadeIn-u76772e1f;
+  animation-name: fadeIn-ub8b1586a;
   animation-duration: 1s; }
 
-@keyframes fadeIn-u76772e1f {
+@keyframes fadeIn-ub8b1586a {
   from {
     opacity: 0;
-    transform: translateY(20px); }
+    transform: translateY(2rem); }
   to {
     opacity: 1;
     transform: translateY(0); } }
@@ -2956,13 +2956,13 @@ img {
 
 .swiper-slide-active,
 .swiper-slide-next {
-  animation-name: fadeIn-u106901b8;
+  animation-name: fadeIn-u9e42b774;
   animation-duration: 1s; }
 
-@keyframes fadeIn-u106901b8 {
+@keyframes fadeIn-u9e42b774 {
   from {
     opacity: 0;
-    transform: translateX(30px); }
+    transform: translateX(2.5rem); }
   to {
     opacity: 1;
     transform: translateX(0); } }
