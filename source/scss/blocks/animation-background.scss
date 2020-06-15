@@ -10,4 +10,8 @@
   z-index: 1;
   background-color: $c-dark;
   transition: height 0.7s;
+
+  &.animation-background--full-size {
+    height: 100%;
+  }
 }

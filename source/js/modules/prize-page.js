@@ -11,9 +11,9 @@ export default () => {
       const {classList} = mutation.target;
 
       if (classList.contains(`active`) && classList.contains(`screen--prizes`)) {
-        background.style.height = `100%`;
+        background.classList.add(`animation-background--full-size`);
       } else {
-        background.style.height = 0;
+        background.classList.remove(`animation-background--full-size`);
       }
     }
   };
