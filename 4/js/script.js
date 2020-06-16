@@ -10480,6 +10480,7 @@ __webpack_require__.r(__webpack_exports__);
   observer.observe(page, config);
 });
 
+
 /***/ }),
 
 /***/ "./source/js/modules/result.js":
@@ -10537,16 +10538,16 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (() => {
-  const rulesItem = document.querySelector(`.rules__item`);
+  const lastRulesItem = document.querySelector(`.rules__item--fourth`);
   const rulesBtn = document.querySelector(`.rules__link`);
 
   function checkAnimationEnd() {
     rulesBtn.classList.add(`rules__link--full-size`);
 
-    rulesItem.removeEventListener(`animationend`, checkAnimationEnd);
+    lastRulesItem.removeEventListener(`animationend`, checkAnimationEnd);
   }
 
-  rulesItem.addEventListener(`animationend`, checkAnimationEnd);
+  lastRulesItem.addEventListener(`animationend`, checkAnimationEnd);
 });
 
 

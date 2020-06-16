@@ -1625,10 +1625,10 @@ img {
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.27;
-  animation-name: fadeIn-ub2b25714;
+  animation-name: fadeIn-uc6d26eb5;
   animation-duration: 1s; }
 
-@keyframes fadeIn-ub2b25714 {
+@keyframes fadeIn-uc6d26eb5 {
   from {
     opacity: 0;
     transform: translateY(2rem); }
@@ -2608,11 +2608,11 @@ img {
   .rules__item.rules__item--first::before {
     animation-delay: 0s; }
   .rules__item.rules__item--first p {
-    animation-name: fadeIn-u9c8b0286;
+    animation-name: fadeIn-u303316ce;
     animation-duration: 0.8s;
     animation-delay: 0.2s; }
 
-@keyframes fadeIn-u9c8b0286 {
+@keyframes fadeIn-u303316ce {
   from {
     opacity: 0;
     transform: translateX(2rem); }
@@ -2622,11 +2622,11 @@ img {
   .rules__item.rules__item--second::before {
     animation-delay: 0.2s; }
   .rules__item.rules__item--second p {
-    animation-name: fadeIn-u86a668a1;
+    animation-name: fadeIn-ufd311353;
     animation-duration: 0.8s;
     animation-delay: 0.4s; }
 
-@keyframes fadeIn-u86a668a1 {
+@keyframes fadeIn-ufd311353 {
   from {
     opacity: 0;
     transform: translateX(2rem); }
@@ -2636,11 +2636,11 @@ img {
   .rules__item.rules__item--third::before {
     animation-delay: 0.4s; }
   .rules__item.rules__item--third p {
-    animation-name: fadeIn-uf517f209;
+    animation-name: fadeIn-ua0732f26;
     animation-duration: 0.8s;
     animation-delay: 0.6s; }
 
-@keyframes fadeIn-uf517f209 {
+@keyframes fadeIn-ua0732f26 {
   from {
     opacity: 0;
     transform: translateX(2rem); }
@@ -2650,11 +2650,11 @@ img {
   .rules__item.rules__item--fourth::before {
     animation-delay: 0.6s; }
   .rules__item.rules__item--fourth p {
-    animation-name: fadeIn-u93da2548;
+    animation-name: fadeIn-ucd65f77a;
     animation-duration: 0.8s;
     animation-delay: 0.8s; }
 
-@keyframes fadeIn-u93da2548 {
+@keyframes fadeIn-ucd65f77a {
   from {
     opacity: 0;
     transform: translateX(2rem); }
@@ -3056,10 +3056,10 @@ img {
 
 .swiper-slide-active,
 .swiper-slide-next {
-  animation-name: fadeIn-u614b4537;
+  animation-name: fadeIn-u2c095662;
   animation-duration: 1s; }
 
-@keyframes fadeIn-u614b4537 {
+@keyframes fadeIn-u2c095662 {
   from {
     opacity: 0;
     transform: translateX(2.5rem); }
