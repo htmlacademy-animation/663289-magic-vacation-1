@@ -21,4 +21,4 @@ export default () => {
   const observer = new MutationObserver(callback);
 
   observer.observe(page, config);
-}
+};
