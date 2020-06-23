@@ -223,6 +223,14 @@
     opacity: 0.5;
     pointer-events: none;
   }
+
+  &.slider__control--next {
+    @include rolling-button(500ms, translateX(5rem), rotate(90deg));
+  }
+
+  &.slider__control--prev {
+    @include rolling-button(500ms, translateX(-5rem), rotate(-90deg));
+  }
 }
 
 .slider__pagination.swiper-pagination {

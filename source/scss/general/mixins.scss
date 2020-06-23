@@ -76,3 +76,21 @@
   animation-name: $name;
   animation-duration: $duration;
 }
+
+@mixin rolling-button($duration, $tranlateFrom, $rotateDeg) {
+  $name: rolling-#{unique-id()};
+
+  @keyframes #{$name} {
+    from {
+      opacity: 0;
+      transform: $tranlateFrom $rotateDeg;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: cubic-bezier(0.21, 1.26, 0.82, 1.51);
+}
