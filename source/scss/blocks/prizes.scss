@@ -374,7 +374,10 @@
 }
 
 .prizes__item--cases {
-  visibility: hidden;
+  // visibility: hidden;
+  .prizes_award {
+    transform: translate(0, -23.7rem);
+  }
 }
 
 .prizes__item--codes {
