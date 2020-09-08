@@ -378,6 +378,39 @@
   .prizes_award {
     transform: translate(0, -23.7rem);
   }
+
+  animation-name: left-move;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+
+  @keyframes left-move {
+    to {
+      transform: translateX(0rem);
+    }
+  }
+
+  & b {
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: 0.2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+    @keyframes opacity {
+      to {
+        opacity: 1;
+      }
+    }
+  }
+
+  & span {
+    opacity: 0;
+    @include fadeIn-animation(1s, translateX(7rem), translateX(0));
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
 }
 
 .prizes__item--codes {
