@@ -121,3 +121,15 @@
   margin: 0 30px 30px;
   display: block;
 }
+
+.path {
+  stroke-dasharray: 790;
+  stroke-dashoffset: 790;
+  animation: dash 2s forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
